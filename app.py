@@ -15,8 +15,10 @@ from calculadora import *
 print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
       "\nEnter - Sair")
 funcao = input()
-if (funcao == "5"):
+if calculate (funcao =="1"):
     calculate()
+elif (funcao == "5"):
+    calculate(palindromo)
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
@@ -26,12 +28,3 @@ else:
     print("Função não implementada!") 
 print("Bye!")
 
-def palindromo():
-    string = input("Insira a palavra ou número a ser conferida: ")
-    stringSemEspacos = string.replace(' ', '')
-    stringTodaMinuscula = stringSemEspacos.lower()
-    stringInvertida = stringTodaMinuscula[::-1]
-    if stringInvertida == stringTodaMinuscula:
-        print ("SIM")
-    else:
-        print ("NAO")
