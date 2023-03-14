@@ -1,7 +1,7 @@
 import sys
 from calculadora import *
 from dia_semana import *
-
+from palindro import *
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
