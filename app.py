@@ -1,5 +1,6 @@
 import sys
 from calculadora import *
+from dia_semana import *
 
 #Seleciona função
 #1 - Calculadora
@@ -12,16 +13,18 @@ from calculadora import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
+print("informe a funcão:\n1 - Inverte string\n2 - Inverte string - Calculadora\n4 - Data para dia de semana\n9 - Pi com x casas decimais" +
       "\nEnter - Sair")
 funcao = input()
-if calculate (funcao =="1"):
+if (funcao == "1"):
     calculate()
 elif (funcao == "5"):
     calculate(palindromo)
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
+elif (funcao == "4"):
+    dia_semana()
 elif (funcao == '9'):
     pi()
 else:
