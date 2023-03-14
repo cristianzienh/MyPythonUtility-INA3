@@ -5,18 +5,6 @@ from parouimpar import *
 from dia_semana import *
 from palindro import *
 
-#Seleciona função
-#1 - Calculadora
-#2 - Inverte string
-#3 - Ordena caracters da string
-#4 - Retorna dia da semana para data
-#5 - Detecta palíndromos
-#6 - Retorna se é número é par ou impar
-#7 - Sorteia um número aleatório para um dado intervalo numérico
-#8 - Verifica se palavra/caracter existe na string
-#9 - Imprime o número Pi com x casas decimais
-#10 - Verifica se exitem numeros na string
-#Enter - Sair
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
       "2 - Inverte string \n"
