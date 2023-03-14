@@ -17,8 +17,17 @@ from palindro import *
 #9 - Imprime o número Pi com x casas decimais
 #10 - Verifica se exitem numeros na string
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
-"\n6 par ou impar" + "\n5 - Detecta palíndromos"
+print("Seleciona função \n" 
+      "1 - Calculadora \n" 
+      "2 - Inverte string \n"
+      "3 - Ordena caracters da string \n"
+      "4 - Retorna dia da semana para data \n"
+      "5 - Detecta palíndromos \n"
+      "6 - Retorna se é número é par ou impar \n"
+      "7 - Sorteia um número aleatório para um dado intervalo numérico \n"
+      "8 - Verifica se palavra/caracter existe na string \n"
+      "9 - Imprime o número Pi com x casas decimais \n"
+      "10 - Verifica se exitem numeros na string \n"
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
@@ -39,7 +48,7 @@ elif (funcao == "4"):
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
-    tem_numeros_string()
+    tem_numeros()
 else:
     print("Função não implementada!") 
 print("Bye!")
