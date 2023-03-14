@@ -24,6 +24,8 @@ elif (funcao == "5"):
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
+elif (funcao == "3")
+    ordenar_string()
 elif (funcao == "4"):
     dia_semana()
 elif (funcao == '9'):
