@@ -12,11 +12,23 @@ from calculadora import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" +
+print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
       "\nEnter - Sair")
 funcao = input()
-if (funcao == "1"):
+if (funcao == "5"):
     calculate()
+elif (funcao == '9'):
+    pi()
 else:
     print("Função não implementada!") 
 print("Bye!")
+
+def palindromo():
+    string = input("Insira a palavra ou número a ser conferida: ")
+    stringSemEspacos = string.replace(' ', '')
+    stringTodaMinuscula = stringSemEspacos.lower()
+    stringInvertida = stringTodaMinuscula[::-1]
+    if stringInvertida == stringTodaMinuscula:
+        print ("SIM")
+    else:
+        print ("NAO")
