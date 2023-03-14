@@ -17,6 +17,9 @@ print("informe a funcão:\n1 - Calculadora" +
 funcao = input()
 if (funcao == "1"):
     calculate()
+elif (funcao == "2"):
+    string = input("Digite a string a ser invertida: ")
+    print(string[::-1])
 else:
     print("Função não implementada!") 
 print("Bye!")
