@@ -21,7 +21,7 @@ funcao = input()
 if (funcao == "1"):
     calculate()
 elif (funcao == "5"):
-    calculate(palindromo)
+    (palindromo)
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
