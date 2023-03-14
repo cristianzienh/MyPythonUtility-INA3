@@ -12,7 +12,7 @@ from calculadora import *
 #8 - Verifica se palavra/caracter existe na string
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
-print("informe a funcão:\n1 - Calculadora" +
+print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
@@ -20,6 +20,8 @@ if (funcao == "1"):
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
+elif (funcao == '9'):
+    pi()
 else:
     print("Função não implementada!") 
 print("Bye!")
