@@ -1,6 +1,7 @@
 import sys
 from calculadora import *
 from dia_semana import *
+from 10 import *
 
 #Seleciona função
 #1 - Calculadora
@@ -25,6 +26,8 @@ elif (funcao == "4"):
     dia_semana()
 elif (funcao == '9'):
     pi()
+elif (funcao == "10"):
+    10()
 else:
     print("Função não implementada!") 
 print("Bye!")
