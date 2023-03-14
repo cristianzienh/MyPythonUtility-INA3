@@ -17,7 +17,7 @@ from verifica_se_ha import *
 #9 - Imprime o número Pi com x casas decimais 
 #Enter - Sair
 print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
-"\n6 par ou impar\n" +
+"\n6 par ou impar\n" + "\n 5 Detecta palíndromos"
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
