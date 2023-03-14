@@ -2,6 +2,8 @@ import sys
 from calculadora import *
 from dia_semana import *
 from palindro import *
+from verifica_se_ha import *
+
 #Seleciona função
 #1 - Calculadora
 #2 - Inverte string
@@ -23,10 +25,14 @@ elif (funcao == "5"):
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
+elif (funcao == "3"):
+    ordenar_string()
 elif (funcao == "4"):
     dia_semana()
 elif (funcao == '9'):
     pi()
+elif (funcao == "10"):
+    verifica_se_ha()
 else:
     print("Função não implementada!") 
 print("Bye!")
