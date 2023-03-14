@@ -17,6 +17,8 @@ print("informe a funcão:\n1 - Calculadora\n9 - Pi com x casas decimais" +
 funcao = input()
 if (funcao == "1"):
     calculate()
+elif (funcao == "3"):
+      ordenar_string()
 elif (funcao == '9'):
     pi()
 else:
