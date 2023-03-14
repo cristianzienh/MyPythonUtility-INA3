@@ -39,8 +39,7 @@ elif (funcao == "4"):
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
-    tem_numeros()
+    tem_numeros_string()
 else:
     print("Função não implementada!") 
 print("Bye!")
-gi
