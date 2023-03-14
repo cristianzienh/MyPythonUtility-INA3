@@ -1,7 +1,7 @@
 import sys
 from calculadora import *
 from dia_semana import *
-from 10 import *
+from verifica_se_ha import *
 
 #Seleciona função
 #1 - Calculadora
@@ -31,7 +31,7 @@ elif (funcao == "4"):
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
-    10()
+    verifica_se_ha()
 else:
     print("Função não implementada!") 
 print("Bye!")
