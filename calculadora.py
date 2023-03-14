@@ -21,3 +21,8 @@ def pi():
     import math
     prc = int(input('Digite o número de casas decimais --> '))
     print(f"Pi = {math.pi:.{prc}f}")
+def ordenar_string(string):
+    lista_caracteres = list(string)
+    lista_caracteres.sort()
+    nova_string = "".join(lista_caracteres)
+    return nova_string
