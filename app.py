@@ -20,12 +20,6 @@ print("Seleciona função \n"
 funcao = input()
 if (funcao == "1"):
     calculate()
-elif (funcao == '9'):
-    pi()
-elif (funcao =='6'):
-    par_ou_impar()
-elif (funcao == "5"):
-    palindromo()
 elif (funcao == "2"):
     string = input("Digite a string a ser invertida: ")
     print(string[::-1])
@@ -33,6 +27,10 @@ elif (funcao == "3"):
     ordenar_string()
 elif (funcao == "4"):
     dia_semana()
+elif (funcao == "5"):
+    palindromo()
+elif (funcao =='6'):
+    par_ou_impar()
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
