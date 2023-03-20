@@ -6,6 +6,7 @@ from dia_semana import *
 from palindro import *
 from ordenar_string import *
 from pi import *
+from MMC import *
 
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
@@ -18,6 +19,7 @@ print("Seleciona função \n"
       "8 - Verifica se palavra/caracter existe na string \n"
       "9 - Imprime o número Pi com x casas decimais \n"
       "10 - Verifica se exitem numeros na string \n"
+      "11 - Calcula qual o MMC entre dois numeros \n"
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
@@ -37,6 +39,8 @@ elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
     tem_numeros()
+elif (funcao == "11"):
+    MMC()
 else:
     print("Função não implementada!") 
 print("Bye!")
