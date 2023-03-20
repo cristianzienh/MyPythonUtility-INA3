@@ -1,9 +1,14 @@
-def palindromo():
-    string = input("Insira a palavra ou número a ser conferida: ")
+def remove_espacos_e_minusculas(string):
     stringSemEspacos = string.replace(' ', '')
     stringTodaMinuscula = stringSemEspacos.lower()
-    stringInvertida = stringTodaMinuscula[::-1]
-    if stringInvertida == stringTodaMinuscula:
-        print ("SIM")
+    return stringTodaMinuscula
+
+def verifica_palindromo():
+    string = input("Insira a palavra ou número a ser conferida: ")
+    string_processada = remove_espacos_e_minusculas(string)
+    string_invertida = string_processada[::-1]
+    return string_processada == string_invertida
+    if verifica_palindromo():
+        print("SIM")
     else:
-        print ("NAO")
+        print("NAO")
