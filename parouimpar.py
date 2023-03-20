@@ -1,6 +1,9 @@
-def par_ou_impar():
+def executador():
     numero = int(input("Digite um número: "))
-    if numero % 2 == 0:
-        print("par")
-    else:
-        print("ímpar") 
+    if e_par(numero):
+      print("É par")
+    else: 
+      print("Impar ")
+def e_par(numero):
+    return (numero % 2 ==0) 
+    
