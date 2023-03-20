@@ -8,7 +8,9 @@ def calculate():
         print("soma:", n1 + n2) 
     elif (operacao == "-") :
         print("subtracao:", n1 - n2)  
+<<<<<<< HEAD
 def pi():
     import math
     prc = int(input('Digite o número de casas decimais --> '))
     print(f"Pi = {math.pi:.{prc}f}")
+
