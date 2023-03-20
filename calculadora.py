@@ -8,8 +8,8 @@ def calculate():
         print("soma:", n1 + n2) 
     elif (operacao == "-") :
         print("subtracao:", n1 - n2)  
-def ordenar_string():
-    lista_caracteres = list(input("digite alguma palavra"))
-    lista_caracteres.sort()
-    nova_string = "".join(lista_caracteres)
-    print(nova_string)
+def pi():
+    import math
+    prc = int(input('Digite o número de casas decimais --> '))
+    print(f"Pi = {math.pi:.{prc}f}")
+
