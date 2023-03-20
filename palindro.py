@@ -8,6 +8,8 @@ def verifica_palindromo():
     string_processada = remove_espacos_e_minusculas(string)
     string_invertida = string_processada[::-1]
     return string_processada == string_invertida
+
+def palindromo ():
     if verifica_palindromo():
         print("SIM")
     else:
