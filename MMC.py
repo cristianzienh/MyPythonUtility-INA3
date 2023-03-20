@@ -1,4 +1,8 @@
 def mmc(a, b):
+    a = int(input("Digite o primeiro número: "))
+    b = int(input("Digite o segundo número: "))
+
+    print("O MMC de", a, "e", b, "é:", mmc(a, b))
     if a > b:
         maior = a
     else:
@@ -12,8 +16,3 @@ def mmc(a, b):
         i += 1
 
     return mmc
-
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
-
-print("O MMC de", a, "e", b, "é:", mmc(a, b))
