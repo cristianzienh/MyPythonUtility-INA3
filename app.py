@@ -7,6 +7,7 @@ from palindro import *
 from ordenar_string import *
 from pi import *
 from MMC import *
+from invertida_string import *
 
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
@@ -25,8 +26,7 @@ funcao = input()
 if (funcao == "1"):
     calculate()
 elif (funcao == "2"):
-    string = input("Digite a string a ser invertida: ")
-    print(string[::-1])
+    string_inverter()
 elif (funcao == "3"):
     ordenar_string()
 elif (funcao == "4"):
@@ -40,7 +40,7 @@ elif (funcao == '9'):
 elif (funcao == "10"):
     tem_numeros()
 elif (funcao == "11"):
-    MMC()
+    mmc()
 else:
     print("Função não implementada!") 
 print("Bye!")
