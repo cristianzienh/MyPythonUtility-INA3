@@ -40,7 +40,7 @@ elif (funcao == '9'):
 elif (funcao == "10"):
     tem_numeros()
 elif (funcao == "11"):
-    MMC()
+    mmc()
 else:
     print("Função não implementada!") 
 print("Bye!")
