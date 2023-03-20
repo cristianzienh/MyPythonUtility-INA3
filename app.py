@@ -29,7 +29,7 @@ if (funcao == "1"):
 elif (funcao == "2"):
     string_inverter()
 elif (funcao == "3"):
-    ordenar_string()
+    aceita_ordena()
 elif (funcao == "4"):
     dia_semana()
 elif (funcao == "5"):
