@@ -43,12 +43,7 @@ elif (funcao == "10"):
 elif (funcao == "7"):
     random_number()
 elif (funcao == "11"):
-<<<<<<< HEAD
-    MMC()
-
-=======
     mmc()
->>>>>>> e10b17c415f23f75b626daa334905b42bc2e511b
 else:
     print("Função não implementada!") 
 print("Bye!")
