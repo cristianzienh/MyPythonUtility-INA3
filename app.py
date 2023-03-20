@@ -4,6 +4,7 @@ from calculadora import *
 from parouimpar import *
 from dia_semana import *
 from palindro import *
+from ordenar_string import *
 
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
