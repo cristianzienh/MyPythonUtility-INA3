@@ -4,5 +4,3 @@ def string_inverter():
 
 def func_inverter_string(string):
     return (string[::-1])
-
-string_inverter()

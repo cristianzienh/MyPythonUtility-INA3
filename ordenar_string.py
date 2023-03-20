@@ -1,5 +1,8 @@
-def ordenar_string():
-    lista_caracteres = list(input("digite alguma palavra"))
+def ordenar_string(lista):
+    lista_caracteres=list(lista)
     lista_caracteres.sort()
     nova_string = "".join(lista_caracteres)
-    print(nova_string)
+    return(nova_string)
+def aceita_ordena():
+        lista=input("digite alguma palavra")
+        print(ordenar_string(lista))
