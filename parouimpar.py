@@ -1,6 +1,6 @@
 def par_ou_impar():
-    numero = int(input("Digite um número"))
+    numero = int(input("Digite um número: "))
     if numero % 2 == 0:
-        return "par"
+        print("par")
     else:
-        return "ímpar"
+        print("ímpar") 
