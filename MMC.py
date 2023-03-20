@@ -15,5 +15,4 @@ def mmc():
         i += 1
 
     print("O MMC de", a, "e", b, "é:", mmc)
-    
-mmc()
+
