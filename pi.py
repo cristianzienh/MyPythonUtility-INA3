@@ -1,4 +1,7 @@
+import math
 def pi():
-    import math
     prc = int(input('Digite o número de casas decimais --> '))
-    print(f"Pi = {math.pi:.{prc}f}")
+    print(calcCasas(prc))
+
+def calcCasas(n):
+    return f"Pi = {math.pi:.{n}f}"
