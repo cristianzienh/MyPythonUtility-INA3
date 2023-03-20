@@ -8,6 +8,7 @@ from ordenar_string import *
 from pi import *
 from MMC import *
 from invertida_string import *
+from geradorNumeros import*
 
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
@@ -39,8 +40,15 @@ elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
     tem_numeros()
+elif (funcao == "7"):
+    random_number()
 elif (funcao == "11"):
+<<<<<<< HEAD
+    MMC()
+
+=======
     mmc()
+>>>>>>> e10b17c415f23f75b626daa334905b42bc2e511b
 else:
     print("Função não implementada!") 
 print("Bye!")
