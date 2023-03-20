@@ -35,7 +35,7 @@ elif (funcao == "4"):
 elif (funcao == "5"):
     palindromo()
 elif (funcao =='6'):
-    par_ou_impar()
+    executador()
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
