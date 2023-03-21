@@ -36,8 +36,8 @@ elif (funcao == "4"):
     dia_semana()
 elif (funcao == "5"):
     palindromo()
-elif (funcao  m=='6'):                                                                                                                            ):
-    par_ou_impar()
+elif (funcao =='6'):                                                                                                                            ):
+    executador()
  elif (funcao == '8'):
     verific_string()
 elif (funcao =='6'):
