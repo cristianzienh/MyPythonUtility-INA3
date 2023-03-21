@@ -1,8 +1,8 @@
-def verific_string():
-    string = "Esta é uma string de exemplo"
-    busca = "exemplo"
 
-    if busca in string:
-        print("A palavra ou caractere buscado existe na string!")
+def verific_string():
+    palavra = input("Digite palavra: ")
+    string = input("Digite string: ")
+    if palavra  in string:
+        print ('esta na string! ')
     else:
-        print("A palavra ou caractere buscado não existe na string.")
+        print ('não está na string! ')
