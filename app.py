@@ -6,7 +6,7 @@ from dia_semana import *
 from palindro import *
 from ordenar_string import *
 from pi import *
-
+from verific_string import*
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
       "2 - Inverte string \n"
@@ -31,12 +31,16 @@ elif (funcao == "4"):
     dia_semana()
 elif (funcao == "5"):
     palindromo()
-elif (funcao =='6'):
+elif (funcao  m=='6'                                                                                                                            ):
     par_ou_impar()
+ elif (funcao == '8') 
+    verific_string()  
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
     tem_numeros()
+elif (funcao == '8'):
+    verific_string()
 else:
     print("Função não implementada!") 
 print("Bye!")
