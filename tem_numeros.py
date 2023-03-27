@@ -1,6 +1,9 @@
 def tem_numeros():
-    string = input("Digite a string a ser verificada: ")
+    vari=input("digite uma palavra e/ou número")
+    print(ver_num(vari))
+def ver_num(vari):
+    string=list(vari)
     if any(char.isdigit() for char in string):
-        print("A string contém números.")
+        return("true")
     else:
-        print("A string não contém números.")
+        return("false")

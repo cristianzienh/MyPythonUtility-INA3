@@ -6,9 +6,10 @@ from dia_semana import *
 from palindro import *
 from ordenar_string import *
 from pi import *
+from verific_string import *
 from mmc import *
 from invertida_string import *
-from geradorNumeros import*
+from geradorNumeros import *
 
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
@@ -33,15 +34,17 @@ elif (funcao == "3"):
 elif (funcao == "4"):
     dia_semana()
 elif (funcao == "5"):
-    palindromo()
+    palindromo()                                                                                                                        
 elif (funcao =='6'):
     executador()
+elif (funcao == "7"):
+    random_number()
+elif (funcao == '8'):
+    verific_string()
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
     tem_numeros()
-elif (funcao == "7"):
-    random_number()
 elif (funcao == "11"):
     mmc()
 else:
