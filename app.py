@@ -6,8 +6,10 @@ from dia_semana import *
 from palindro import *
 from ordenar_string import *
 from pi import *
-from MMC import *
+from verific_string import *
+from mmc import *
 from invertida_string import *
+from geradorNumeros import *
 
 print("Seleciona função \n" 
       "1 - Calculadora \n" 
@@ -20,7 +22,7 @@ print("Seleciona função \n"
       "8 - Verifica se palavra/caracter existe na string \n"
       "9 - Imprime o número Pi com x casas decimais \n"
       "10 - Verifica se exitem numeros na string \n"
-      "11 - Calcula qual o MMC entre dois numeros \n"
+      "11 - Calcula qual o mmc entre dois numeros \n"
       "\nEnter - Sair")
 funcao = input()
 if (funcao == "1"):
@@ -28,13 +30,17 @@ if (funcao == "1"):
 elif (funcao == "2"):
     string_inverter()
 elif (funcao == "3"):
-    ordenar_string()
+    aceita_ordena()
 elif (funcao == "4"):
     dia_semana()
 elif (funcao == "5"):
-    palindromo()
+    palindromo()                                                                                                                        
 elif (funcao =='6'):
-    par_ou_impar()
+    executador()
+elif (funcao == "7"):
+    random_number()
+elif (funcao == '8'):
+    verific_string()
 elif (funcao == '9'):
     pi()
 elif (funcao == "10"):
